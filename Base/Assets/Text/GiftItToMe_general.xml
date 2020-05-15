@@ -8,7 +8,7 @@
   		<Text>Gift unit (to the player which territory it is located)</Text>
   	</Row>
   	<Row Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT_DISABLED">
-  		<Text>Gift unit[NEWLINE]- Needs to be in an other players territory[NEWLINE]- Religious units, settlers and indiana-jones cannot be gifted to city-states[NEWLINE]- Levied units cannot be gifted[NEWLINE]- Hungary needs to gift gold together with the combat-unit to suzerain city-states[NEWLINE]- Cannot gift to players youre at war with[NEWLINE]- Max. gifts per turn: {1_MaxGifts}[NEWLINE]- Unit health must more than 90%</Text>
+  		<Text>Gift unit[NEWLINE]- Needs to be in an other players territory[NEWLINE]- Religious units, settlers and indiana-jones cannot be gifted to city-states[NEWLINE]- Levied units cannot be gifted[NEWLINE]- Hungary needs to gift gold together with the combat-unit to suzerain city-states[NEWLINE]- Cannot gift to players youre at war with[NEWLINE]- Max. gifts per turn: {1_MaxGifts}[NEWLINE]- Unit health must be more than 90%</Text>
   	</Row>
   	<Row Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT">
   		<Text>Are you sure you want to gift ({2_GiftCount}/{3_MaxGiftCount}) your {1_UnitName} to the other player?</Text>

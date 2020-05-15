@@ -516,15 +516,15 @@ function SetUnitGiftableStatus (playerId, unitId, locationX, locationY)
 						local giftingUnitDamagedPercent = RoundNumber(((giftingUnitMaxDamage / 100) * giftingUnitDamage), 0);
 
 						-- All combat type units, religious units and some civillians
-						if ((giftingUnitFormationClass == "FORMATION_CLASS_LAND_COMBAT" and recipientPlayer:IsMajor()) or										-- Major civs get all kind of combat units
+						if ((giftingUnitFormationClass == "FORMATION_CLASS_LAND_COMBAT" and recipientPlayer:IsMajor()) or																			-- Major civs get all kind of combat units
 							(giftingUnitFormationClass == "FORMATION_CLASS_LAND_COMBAT" and not recipientPlayer:IsMajor() and giftingUnitReligionType <= 0) or	-- Minor civs get all kinde of combat units except religious ones
-							giftingUnitFormationClass == "FORMATION_CLASS_NAVAL" or																				-- All civs can get all naval units
-							giftingUnitFormationClass == "FORMATION_CLASS_AIR" or																				-- All civs can get all air units
-							giftingUnitFormationClass == "FORMATION_CLASS_SUPPORT" or																			-- All civs can get all support units
-							giftingUnitType == "UNIT_BUILDER" or																								-- All civs can get builders
-							(giftingUnitType == "UNIT_SETTLER" and recipientPlayer:IsMajor()) or																-- Major civs can get settlers
-							(giftingUnitType == "UNIT_ARCHAEOLOGIST" and recipientPlayer:IsMajor()) or															-- Major civs can get Indiana-Jones
-							(giftingUnitPurchaseYield == "YIELD_FAITH" and recipientPlayer:IsMajor())) then														-- Major civs can get religious units
+							giftingUnitFormationClass == "FORMATION_CLASS_NAVAL" or																																							-- All civs can get all naval units
+							giftingUnitFormationClass == "FORMATION_CLASS_AIR" or																																								-- All civs can get all air units
+							giftingUnitFormationClass == "FORMATION_CLASS_SUPPORT" or																																						-- All civs can get all support units
+							giftingUnitType == "UNIT_BUILDER" or																																																-- All civs can get builders
+							(giftingUnitType == "UNIT_SETTLER" and recipientPlayer:IsMajor()) or																																-- Major civs can get settlers
+							(giftingUnitType == "UNIT_ARCHAEOLOGIST" and recipientPlayer:IsMajor()) or																													-- Major civs can get Indiana-Jones
+							(giftingUnitPurchaseYield == "YIELD_FAITH" and recipientPlayer:IsMajor())) then																											-- Major civs can get religious units
 							-- The unit must have high health and the gifting player and recipient must be at peace!
 							if (giftingUnitDamagedPercent <= 10 and not giftingPlayer:GetDiplomacy():IsAtWarWith(recipientPlayer:GetID())) then
 								unitIsGiftable = true;
@@ -895,7 +895,7 @@ function Initialize()
 	-- Game-event for triggering diplo screen close
 	Events.DiplomacySessionClosed.Add(OnDiplomacySessionClosed)
 
-	-- Call a lua event for updateing gifting-counters
+	-- Call a lua event for updating gifting-counters
 	LuaEvents.SetGiftsThisTurn.Add(OnSetGiftsThisTurn);
 	LuaEvents.SetReceivedGiftsThisTurn.Add(OnSetReceivedGiftsThisTurn);
 

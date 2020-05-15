@@ -3,7 +3,7 @@
   <Properties>
     <Name>Gift It To Me</Name>
     <Teaser>All your units are belong to me (hopefully).</Teaser>
-    <Description>Details here: https://steamcommunity.com/sharedfiles/filedetails/?id=1683750352</Description>
+    <Description>Allows gifting units to other players, be it human or AI.</Description>
     <Authors>Fampat</Authors>
     <EnabledByDefault>1</EnabledByDefault>
     <DisabledAtStartup>0</DisabledAtStartup>

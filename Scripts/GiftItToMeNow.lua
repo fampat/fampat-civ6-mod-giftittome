@@ -85,7 +85,7 @@ function OnGiftItNow(giftingPlayerId, recipientPlayerId, giftingUnitId)
 	end
 end
 
--- Populate the new new received unit with promotions and formation
+-- Populate the new received unit with promotions and formation
 function PolulateItNow()
 	-- New unit is real?
 	if recievedUnit ~= nil then
