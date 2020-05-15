@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- Chinese -->
+
+    <!-- Unit panel -->
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT" Language="zh_CN">
+  		<Text>礼品单元（对其所在地区的玩家）</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT_DISABLED" Language="zh_CN">
+  		<Text>礼品单元[NEWLINE]  - 需要在其他玩家领域[NEWLINE]  - 宗教单位，定居者和印第安纳州无法赠送给城邦[NEWLINE]  - 征收的单位不能有天赋[NEWLINE]  - 匈牙利需要礼物 黄金与战斗单位一起用于宗主国城[NEWLINE]  - 不能赠送给你与[NEWLINE]战争的玩家 -  Max。 每回合的礼物：{1_MaxGifts} [NEWLINE]  - 单位健康必须超过90％</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT" Language="zh_CN">
+  		<Text>您确定要向其他玩家赠送（{2_GiftCount} / {3_MaxGiftCount}）{1_UnitName}吗？</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT_PAY" Language="zh_CN">
+  		<Text>您确定要向城市国家赠送（{3_GiftCount} / {4_MaxGiftCount}）您的{1_UnitName}和{2_Gold}金币吗？[NEWLINE]（匈牙利需要将黄金与战斗部队一起赠送给宗主城市 -  状态）</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_HEADLINE" Language="zh_CN">
+  		<Text>来自{1_LeaderName}的警告</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_CONTENT" Language="zh_CN">
+  		<Text>向我们的敌人赠送单位可能会导致外交行动！[NEWLINE]看到自己警告！</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_HEADLINE" Language="zh_CN">
+  		<Text>{1_LeaderName}给了你一个单位！</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_CONTENT" Language="zh_CN">
+  		<Text>您收到了{1_UnitName}！</Text>
+  	</Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- Russian -->
+
+    <!-- Unit panel -->
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT" Language="ru_RU">
+  		<Text>Подарочный блок (игроку, на какой территории он находится</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT_DISABLED" Language="ru_RU">
+  		<Text>Подарочный отряд [NEWLINE] - Нужно находиться на территории других игроков [NEWLINE] - Религиозные отряды, поселенцы и индиана-джонс не могут быть подарены городам-государствам [NEWLINE] - Наложенные отряды не могут быть одарены [NEWLINE] - Венгрия нуждается в дарах золото вместе с боевым отрядом для сюзерена городов-государств [NEWLINE] - не может подарить игрокам, находящимся в состоянии войны с [NEWLINE] - Макс. даров за ход: {1_MaxGifts} [NEWLINE] - здоровье юнита должно превышать 90%</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT" Language="ru_RU">
+  		<Text>Вы уверены, что хотите подарить ({2_GiftCount} / {3_MaxGiftCount}) свое {1_UnitName} другому игроку?</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT_PAY" Language="ru_RU">
+  		<Text>Вы уверены, что хотите подарить ({3_GiftCount} / {4_MaxGiftCount}) свое {1_UnitName} и {2_Gold} золото городу-государству? [NEWLINE] (Венгрия должна подарить золото вместе с боевым отрядом для сюзерена city- состояния)</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_HEADLINE" Language="ru_RU">
+  		<Text>Предупреждение от {1_LeaderName}</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_CONTENT" Language="ru_RU">
+  		<Text>Дарение юнитов нашим врагам может привести к дипломатическим действиям! [NEWLINE] Смотрите сами!</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_HEADLINE" Language="ru_RU">
+  		<Text>{1_LeaderName} подарил вам юнит!</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_CONTENT" Language="ru_RU">
+  		<Text>Вы получили {1_UnitName}!</Text>
+  	</Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context Name="GiftItToMe" >
+
+	<Stack ID="GiftSecondaryActionsStack" Anchor="C,B" StackGrowth="Right" Padding="2" ConsumeMouse="1" />
+	
+	<Instance Name="UnitActionInstance" >
+		<Button	ID="UnitActionButton" Anchor="L,T" Size="44,53" Texture="UnitPanel_ActionButton">
+			<Image ID="UnitActionIcon" Anchor="C,C" Offset="0,-2" Size="38,38" Texture="UnitActions"/>
+		</Button>
+	</Instance>
+
+</Context>

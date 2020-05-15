@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- GERMAN -->
+
+    <!-- Unit panel -->
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT" Language="de_DE">
+  		<Text>Einheit verschenken (Dem Spieler auf dessen Gebiet sie sich befindet)</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT_DISABLED" Language="de_DE">
+  		<Text>Einheit verschenken[NEWLINE]- Muss sich auf dem Gebiet eines anderen Spielers befinden[NEWLINE]- Religiöse Einheiten, Siedler und Indiana-Jones können nicht an Stadt-Staaten verschenkt werden[NEWLINE]- Ausgeliehene Einheiten können nicht verschenkt werden[NEWLINE]- Ungarn muss einem suzeränen Stadt-Staat zusammen mit der Kampfeinheit Gold schenken[NEWLINE]- Geschenke an Kriegsgegner nicht möglich[NEWLINE]- Max. Geschenke pro Zug: {1_MaxGifts}[NEWLINE]- Einheit muss mehr als 90% Lebenspunkte haben</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT" Language="de_DE">
+  		<Text>Dein {1_UnitName} wirklich dem anderen Spieler schenken ({2_GiftCount}/{3_MaxGiftCount})?</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT_PAY" Language="de_DE">
+  		<Text>Dein {1_UnitName} und {2_Gold} Gold wirklich dem Stadt-Staat schenken ({3_GiftCount}/{4_MaxGiftCount})?[NEWLINE](Ungarn muss suzeränen Stadt-Staaten Aufwerungskosten zusammen mit der Kampfeinheit schenken)</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_HEADLINE" Language="de_DE">
+  		<Text>Warnung von {1_LeaderName}</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_CONTENT" Language="de_DE">
+  		<Text>Unsere Feinde mit Einheiten zu versorgen wird diplomatische Aktionen nach sich ziehen![NEWLINE]Sehen Sie sich gewarnt!</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_HEADLINE" Language="de_DE">
+  		<Text>{1_LeaderName} hat Dir eine Einheit geschenkt!</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_CONTENT" Language="de_DE">
+  		<Text>Du hast ein {1_UnitName} erhalten!</Text>
+  	</Replace>
+  </LocalizedText>
+</GameData>

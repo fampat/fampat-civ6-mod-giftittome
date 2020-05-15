@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- French -->
+
+    <!-- Unit panel -->
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT" Language="fr_FR">
+  		<Text>Unité de cadeau (au joueur sur quel territoire il se trouve)</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT_DISABLED" Language="fr_FR">
+  		<Text>Unité de cadeau[NEWLINE] - Doit être sur un territoire de joueurs[NEWLINE] - Les unités religieuses, les colons et les indian-jones ne peuvent pas être offerts à des cités-états[NEWLINE] - Les unités levées ne peuvent pas être offertes[NEWLINE] - La Hongrie doit faire un don or avec l'unité de combat dans les cités-États suzeraines[NEWLINE] - Ne peut pas offrir de cadeaux à des joueurs en guerre avec[NEWLINE] - Max. cadeaux par tour: {1_MaxGifts}[NEWLINE] - La santé de l'unité doit être supérieure à 90%</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT" Language="fr_FR">
+  		<Text>Etes-vous sûr de vouloir donner ({2_GiftCount} / {3_MaxGiftCount}) votre {1_UnitName} à l'autre joueur?</Text>
+  	</Replace>
+  	<Replace Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT_PAY" Language="fr_FR">
+  		<Text>Voulez-vous vraiment donner ({3_GiftCount} / {4_MaxGiftCount}) votre {1_UnitName} et votre {2_Gold} Gold à la cité-État?[NEWLINE] (La Hongrie doit faire don de l'or avec l'unité de combat au suzerain city- États)</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_HEADLINE" Language="fr_FR">
+  		<Text>Avertissement de {1_LeaderName}</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_WARNING_CONTENT" Language="fr_FR">
+  		<Text>Donner des unités à nos ennemis peut entraîner des actions diplomatiques![NEWLINE] Voir vous-même averti!</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_HEADLINE" Language="fr_FR">
+  		<Text>{1_LeaderName} vous a offert une unité!</Text>
+  	</Replace>
+  	<Replace Tag="LOC_GIFTITTOME_INFO_CONTENT" Language="fr_FR">
+  		<Text>Vous avez reçu un {1_UnitName}!</Text>
+  	</Replace>
+  </LocalizedText>
+</GameData>

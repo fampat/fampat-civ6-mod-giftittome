@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>
+    <!-- ENGLISH -->
+
+    <!-- Unit panel -->
+  	<Row Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT">
+  		<Text>Gift unit (to the player which territory it is located)</Text>
+  	</Row>
+  	<Row Tag="LOC_GIFTITTOME_GIFT_THIS_UNIT_DISABLED">
+  		<Text>Gift unit[NEWLINE]- Needs to be in an other players territory[NEWLINE]- Religious units, settlers and indiana-jones cannot be gifted to city-states[NEWLINE]- Levied units cannot be gifted[NEWLINE]- Hungary needs to gift gold together with the combat-unit to suzerain city-states[NEWLINE]- Cannot gift to players youre at war with[NEWLINE]- Max. gifts per turn: {1_MaxGifts}[NEWLINE]- Unit health must more than 90%</Text>
+  	</Row>
+  	<Row Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT">
+  		<Text>Are you sure you want to gift ({2_GiftCount}/{3_MaxGiftCount}) your {1_UnitName} to the other player?</Text>
+  	</Row>
+  	<Row Tag="LOC_HUD_UNIT_PANEL_ARE_YOU_SURE_GIFT_PAY">
+  		<Text>Are you sure you want to gift ({3_GiftCount}/{4_MaxGiftCount}) your {1_UnitName} and {2_Gold} Gold to the city-state?[NEWLINE](Hungary needs to gift gold together with the combat-unit to suzerain city-states)</Text>
+  	</Row>
+  	<Row Tag="LOC_GIFTITTOME_WARNING_HEADLINE">
+  		<Text>Warning from {1_LeaderName}</Text>
+  	</Row>
+  	<Row Tag="LOC_GIFTITTOME_WARNING_CONTENT">
+  		<Text>Gifting units to our enemies may result in diplomatic actions![NEWLINE]See youself warned!</Text>
+  	</Row>
+  	<Row Tag="LOC_GIFTITTOME_INFO_HEADLINE">
+  		<Text>{1_LeaderName} has gifted you a unit!</Text>
+  	</Row>
+  	<Row Tag="LOC_GIFTITTOME_INFO_CONTENT">
+  		<Text>You have received a {1_UnitName}!</Text>
+  	</Row>
+  </BaseGameText>
+</GameData>
