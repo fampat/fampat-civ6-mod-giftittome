@@ -617,17 +617,25 @@ end
 -- Hook into corp-formation
 function OnUnitFormCorps(playerId, unitId)
 	-- Logging
-	WriteToLog("OnUnitFormCorps")
-	WriteToLog(playerId)
-	WriteToLog(unitId)
+	WriteToLog("OnUnitFormCorps");
+	WriteToLog(playerId);
+	WriteToLog(unitId);
 
 	-- Fetch player data
 	local player = Players[playerId];
 	local unit = player:GetUnits():FindID(unitId);
-	local unitType = GameInfo.Units[unit:GetType()].UnitType;
 
-	-- Memorize freed resource
-	XP2FreeResourceConsumption(playerId, unitType);
+  -- Check if the unit has a type, if not there is nothing to free up
+	-- I wonder what type of unit can have no "type" oO
+	if unit:GetType() ~= nil then
+		local unitType = GameInfo.Units[unit:GetType()].UnitType;
+
+		-- Memorize freed resource
+		XP2FreeResourceConsumption(playerId, unitType);
+	else
+		-- Lets find out if untyped units have names
+		print("--ERROR - Found a unit without a type: "..unit:GetName());
+	end
 end
 
 -- Hook into corp formations
