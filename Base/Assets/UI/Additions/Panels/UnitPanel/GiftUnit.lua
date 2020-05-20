@@ -3,12 +3,15 @@
 --	UI implementation of our gift-button and handling
 -- ==================================================
 
+-- Add a log event for loading this
+print("Loading GiftUnit.lua");
+
 -- Includes
 include("InstanceManager");
 include("PopupDialog");
 
 -- Debugging mode switch
-local debugMode = false;
+local debugMode = true;
 
 -- Enabled mods check
 local isExpansion2Active = Modding.IsModActive("4873eb62-8ccc-4574-b784-dda455e74e68");
@@ -732,7 +735,7 @@ function OnLoadedReceivedGiftsThisTurn(receivedGiftsThisTurnLoaded)
 		-- Set the context value
 		receivedGiftsThisTurn = UnserializeGiftCounter(receivedGiftsThisTurnLoaded);
 
-		-- Vallback for setting the value on all players
+		-- Callback for setting the value on all players
 		LuaEvents.SetReceivedGiftsThisTurn(receivedGiftsThisTurn);
 	end
 end

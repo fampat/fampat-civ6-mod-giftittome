@@ -4,7 +4,7 @@
 -- ==============================================================
 
 -- Debugging mode switch
-local debugMode = false;
+local debugMode = true;
 
 -- Units and player variables
 local currentPromotions = {};
