@@ -12,8 +12,8 @@ Since the modding engine does not allow direct change of "ownership", not all ty
 
 [b]Giftable units[/b]
 - All combat-type of units (land, sea and air)
-- Religious units (AI kills em if it its not "thier" religion though)
-- Support units (medics, military engineere etc.)
+- Religious units (AI kills em if it its not "their" religion though)
+- Support units (medics, military engineer etc.)
 - Builders (only giftable to major civs)
 - Settlers (only giftable to major civs)
 - Archeologists (only giftable to major civs)
@@ -26,19 +26,19 @@ Just move your unit into other players territory, and push the magic gift-button
 
 [b]Rules of Gifting[/b]
 - Needs to be in an other players territory
-- Religious units, settlers and indiana-jones cannot be gifted to city-states
+- Religious units, settlers and Indiana-Jones cannot be gifted to city-states
 - Levied units cannot be gifted
 - Hungary needs to gift gold together with the combat-unit to suzerain city-states
-- Cannot gift to players youre at war with
+- Cannot gift to players you're at war with
 - Max. gifts per turn: 5
 - Unit health must more than 90%
 - AI will destroy gifted units if they cripple their economy
 
 [b]Diplomatic actions/reactions[/b]
-- If you gift units to a player who is in war, the enemy-civ will send you a warning as a notification to not support their enemies, if you ignore that and continue gifting units, they will denounce you, resulting in 25 grievance torwards you.
+- If you gift units to a player who is in war, the enemy-civ will send you a warning as a notification to not support their enemies, if you ignore that and continue gifting units, they will denounce you, resulting in 25 grievance towards you.
 - Gifting units to a AI major civ will have the same relationship effect as a "Favorable Trade" to them, you will receive a +10 opinion-boost (which decays). This is a hard-cap (by the engine), gifting additional units only brings that opinion back to +10.
 
-[b]Whats next?[/b]
+[b]What's next?[/b]
 - Currently none planned, might change!
 
 [b]Known issues[/b]
@@ -50,7 +50,7 @@ Currently localized for EN, DE, ES, FR, RU and ZH
 
 [b]Every feedback and bugreport is welcome![/b]
 Special thanks to Gedemon from civfanatics and Tully's annex city-state mod for giving examples on modding cross-ui-gamescript after GS-Update!
-Also very special thanks to Sparrow for the Cheat Menu Panel! Helps alot while modding!
+Also very special thanks to Sparrow for the Cheat Menu Panel! Helps a lot while modding!
 
 [b]Want to support?[/b]
 Rate or Donate!
@@ -69,3 +69,4 @@ Support is welcome, but not necessary!
 [b]Maybe you will also enjoy my other mods[/b]
 - "At A Glance UI" - https://steamcommunity.com/sharedfiles/filedetails/?id=1683762658
 - "FortifAI" - https://steamcommunity.com/sharedfiles/filedetails/?id=1683757675
+- "Still A Useful Material" - https://steamcommunity.com/sharedfiles/filedetails/?id=2106687881
