@@ -39,7 +39,7 @@ function OnUpdateUnitFlagReligious(playerID, unitID, unitX, unitY)
 end
 
 -- Our custom initialize
-function InitializeNow()
+function Initialize_GITM_UniFlagManager()
 	-- Log execution
 	print("UnitFlagManager_GITM.lua: InitializeNow")
 
@@ -48,4 +48,4 @@ function InitializeNow()
 end
 
 -- Our initialize
-InitializeNow();
+Initialize_GITM_UniFlagManager();
