@@ -20,7 +20,7 @@ end
 print("Loading UnitFlagManager_GITM.lua");
 
 -- Update unit flag on demand/event for religious units
-function OnUpdateUnitFlagReligious(playerID, unitID, unitX, unitY)
+function FAI_OnUpdateUnitFlagReligious(playerID, unitID, unitX, unitY)
 	-- Fetch player and unit
 	local pPlayer = Players[playerID];
 	local pUnit = pPlayer:GetUnits():FindID(unitID);
@@ -41,10 +41,10 @@ end
 -- Our custom initialize
 function Initialize_GITM_UniFlagManager()
 	-- Log execution
-	print("UnitFlagManager_GITM.lua: InitializeNow")
+	print("UnitFlagManager_GITM.lua: Initialize_GITM_UniFlagManager")
 
 	-- Append our own lua-event
-	LuaEvents.UpdateUnitFlagReligious.Add(OnUpdateUnitFlagReligious);
+	LuaEvents.UpdateUnitFlagReligious.Add(FAI_OnUpdateUnitFlagReligious);
 end
 
 -- Our initialize
