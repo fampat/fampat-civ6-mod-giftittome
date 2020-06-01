@@ -70,3 +70,4 @@ Support is welcome, but not necessary!
 - "At A Glance UI" - https://steamcommunity.com/sharedfiles/filedetails/?id=1683762658
 - "FortifAI" - https://steamcommunity.com/sharedfiles/filedetails/?id=1683757675
 - "Still A Useful Material" - https://steamcommunity.com/sharedfiles/filedetails/?id=2106687881
+- "Even It Out" - Upcoming balance changes and scaling difficulties
